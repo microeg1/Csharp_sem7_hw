@@ -45,7 +45,7 @@ class Program
                 count = count + arr[i,j];
                 
             }
-            count = Math.Round(count / arr.GetLength(1),3);
+            count = Math.Round(count / arr.GetLength(1),1);
             Console.WriteLine($"Среднее арифметическое {i+1} столбца равно {count}");
         }
     }
