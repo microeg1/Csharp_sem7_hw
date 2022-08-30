@@ -39,6 +39,7 @@ class Program
         double count = 0;
         for (int i = 0; i < arr.GetLength(0); i++)
         {
+            count = 0;
             for (int j = 0; j < arr.GetLength(1); j++)
             {
                 count = count + arr[i,j];
